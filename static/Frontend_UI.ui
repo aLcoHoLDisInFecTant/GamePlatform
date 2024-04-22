@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>986</width>
+    <height>832</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="main_frame">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>19</y>
+     <width>921</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#main_frame {
+	background-color: rgb(239, 228, 255)
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QFrame" name="site_frame_1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>161</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#site_frame_1 {
+	background-color: rgb(255, 255, 255);
+	border-top-left-radius: 10px; /* 设置左上角圆角 */
+    border-bottom-left-radius: 10px; /* 设置左下角圆角 */
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>54</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>导航</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="user_info">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>121</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#user_info{
+	border-radius: 12px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(143, 143, 143);
+}</string>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="settings">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>620</y>
+       <width>121</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#settings {
+	border-radius: 12px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(143, 143, 143);
+}</string>
+     </property>
+     <property name="text">
+      <string>系统设置</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="training_statistic">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>580</y>
+       <width>121</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#training_statistic {
+		border-radius: 12px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(143, 143, 143);
+}</string>
+     </property>
+     <property name="text">
+      <string>训练统计</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="rehabilition_training_button">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>540</y>
+       <width>121</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#rehabilition_training_button {
+		border-radius: 12px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(143, 143, 143);
+}</string>
+     </property>
+     <property name="text">
+      <string>康复训练</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="patients_manage">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>500</y>
+       <width>121</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#patients_manage {
+		border-radius: 12px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(143, 143, 143);
+}</string>
+     </property>
+     <property name="text">
+      <string>患者管理</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>500</y>
+       <width>21</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>741</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QFrame" name="main_frame_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>741</width>
+        <height>671</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#main_frame_2 {
+	background: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgb(194, 231, 255), stop:1 rgb(175, 255, 182));
+	border-top-right-radius: 10px; /* 设置左上角圆角 */
+    border-bottom-right-radius: 10px; /* 设置左下角圆角 */
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QWidget" name="re_targets" native="true">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>70</y>
+         <width>301</width>
+         <height>251</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#re_targets {
+	background-color: rgb(255, 255, 255);
+	border-radius: 10px; 
+}</string>
+       </property>
+       <widget class="QLabel" name="re_targets_title">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>301</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#re_targets_title {
+	background-color: rgb(238, 238, 238);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	
+}</string>
+        </property>
+        <property name="text">
+         <string>训练目标</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="motor_coordination">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>281</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#motor_coordination {
+	background-color: rgb(238, 238, 238);
+		border-radius: 12px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(143, 143, 143);
+}</string>
+        </property>
+        <property name="text">
+         <string>运动协调</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="mind_training">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>110</y>
+          <width>281</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#mind_training {
+	background-color: rgb(238, 238, 238);
+	border-radius: 12px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(143, 143, 143);
+}</string>
+        </property>
+        <property name="text">
+         <string>思维训练</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="static_strength">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>170</y>
+          <width>281</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#static_strength {
+	background-color: rgb(238, 238, 238);
+	border-radius: 12px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(143, 143, 143);
+}</string>
+        </property>
+        <property name="text">
+         <string>静态力量</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="training_settings" native="true">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>70</y>
+         <width>381</width>
+         <height>251</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#training_settings {
+	background-color: rgb(255, 255, 255);
+	border-radius: 10px;
+}</string>
+       </property>
+       <widget class="QLabel" name="training_settings_title">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>381</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#training_settings_title {
+	background-color: rgb(238, 238, 238);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	
+}</string>
+        </property>
+        <property name="text">
+         <string>训练参数</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget_4" native="true">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>40</y>
+          <width>161</width>
+          <height>201</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget_5" native="true">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>40</y>
+          <width>171</width>
+          <height>201</height>
+         </rect>
+        </property>
+        <widget class="QPushButton" name="pushButton">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>141</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PushButton</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>50</y>
+           <width>141</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PushButton</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>100</y>
+           <width>141</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PushButton</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_8">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>150</y>
+           <width>131</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PushButton</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>20</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>训练设置</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_3" native="true">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>350</y>
+         <width>701</width>
+         <height>281</height>
+        </rect>
+       </property>
+       <widget class="QSlider" name="horizontalSlider">
+        <property name="geometry">
+         <rect>
+          <x>9</x>
+          <y>250</y>
+          <width>681</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget_7" native="true">
+        <property name="geometry">
+         <rect>
+          <x>29</x>
+          <y>29</y>
+          <width>191</width>
+          <height>191</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QWidget" name="patients_management" native="true">
+      <property name="geometry">
+       <rect>
+        <x>-1</x>
+        <y>-1</y>
+        <width>741</width>
+        <height>671</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#patients_management {
+		background: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgb(194, 231, 255), stop:1 rgb(175, 255, 182))
+}</string>
+      </property>
+      <widget class="QWidget" name="widget_6" native="true">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>40</y>
+         <width>661</width>
+         <height>601</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#widget_6 {
+	background-color: rgb(255, 255, 255);
+	border-radius: 10px; 
+}</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <property name="styleSheet">
+      <string notr="true">#training_frame {
+	background: qlineargradient(spread:pad, x1:0.4, y1:0.3, x2:1, y2:1, stop:0 rgb(255, 255, 255), stop:1 rgb(240, 228, 255));
+	border-top-right-radius: 10px; /* 设置左上角圆角 */
+    border-bottom-right-radius: 10px; /* 设置左下角圆角 */
+}</string>
+     </property>
+     <widget class="QFrame" name="training_frame">
+      <property name="geometry">
+       <rect>
+        <x>-1</x>
+        <y>-1</y>
+        <width>741</width>
+        <height>671</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#training_frame {
+	background: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgb(194, 231, 255), stop:1 rgb(175, 255, 182))
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QWidget" name="widget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>19</x>
+         <y>29</y>
+         <width>711</width>
+         <height>631</height>
+        </rect>
+       </property>
+       <widget class="QSlider" name="verticalSlider">
+        <property name="geometry">
+         <rect>
+          <x>690</x>
+          <y>0</y>
+          <width>20</width>
+          <height>631</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>160</y>
+          <width>681</width>
+          <height>471</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout"/>
+       </widget>
+       <widget class="QWidget" name="widget_2" native="true">
+        <property name="geometry">
+         <rect>
+          <x>-1</x>
+          <y>10</y>
+          <width>681</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>70</y>
+           <width>75</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>训练报告</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>70</y>
+           <width>75</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>评估报告</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_6">
+         <property name="geometry">
+          <rect>
+           <x>450</x>
+           <y>70</y>
+           <width>75</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>导出</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_7">
+         <property name="geometry">
+          <rect>
+           <x>570</x>
+           <y>70</y>
+           <width>75</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>删除</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
