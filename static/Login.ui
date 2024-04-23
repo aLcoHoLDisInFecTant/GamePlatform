@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>994</width>
+    <height>867</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="login_background" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>921</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#login_background{
+		background: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgb(194, 231, 255), stop:1 rgb(175, 255, 182))
+}</string>
+    </property>
+    <widget class="QWidget" name="widget_login" native="true">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>100</y>
+       <width>781</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#widget_login {
+	background-color: rgb(255, 255, 255);
+	border-radius: 20px; 
+}</string>
+     </property>
+     <widget class="QLabel" name="label_background">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-10</y>
+        <width>501</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#label_background {
+	border-radius:20px; 
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>C:/Users/Xiang/Desktop/素材/208页面设计/login.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>60</y>
+        <width>281</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>28</pointsize>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>UserLogin</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>110</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>28</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>欢迎登录</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>130</y>
+        <width>151</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>康复训练&amp;管理系统</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>180</y>
+        <width>54</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>用户名</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="user_id">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>200</y>
+        <width>281</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>240</y>
+        <width>54</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>密码</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="password">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>260</y>
+        <width>281</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="login_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>310</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>登录</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

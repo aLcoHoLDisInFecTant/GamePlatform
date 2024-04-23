@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>644</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QWidget" name="home_background_4" native="true">
+      <property name="styleSheet">
+       <string notr="true">#home_background_4{
+		background: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgb(194, 231, 255), stop:1 rgb(175, 255, 182))
+}
+
+
+</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_11" stretch="1,4">
+       <property name="spacing">
+        <number>10</number>
+       </property>
+       <property name="leftMargin">
+        <number>9</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="widget_33" native="true">
+         <property name="styleSheet">
+          <string notr="true">QWidget{
+	background-color: white;
+	border-radius: 15px;
+	
+}</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_7" stretch="1,3,1,1,1,1">
+          <property name="spacing">
+           <number>5</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="pushButton_17">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Microsoft JhengHei UI</family>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string> 导     航</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../icons/menu.svg</normaloff>../icons/menu.svg</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Maximum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>300</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="homeButton">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>3</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Microsoft JhengHei UI</family>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#homeButton {
+    border: 1px solid #008C8C; /* 设置边框样式 */
+    border-radius: 15px; /* 设置边框圆角大小 */
+
+}
+
+#homeButton:hover {
+    background-color: #d3d3d3; /* 悬停状态 */
+}
+</string>
+            </property>
+            <property name="text">
+             <string>主       页 </string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../icons/home-filling.svg</normaloff>../icons/home-filling.svg</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="trainButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Microsoft JhengHei UI</family>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#trainButton {
+    border: 1px solid #008C8C; /* 设置边框样式 */
+    border-radius: 15px; /* 设置边框圆角大小 */
+}
+
+#trainButton:hover {
+    background-color: #d3d3d3; /* 悬停状态 */
+}</string>
+            </property>
+            <property name="text">
+             <string>训练康复</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../icons/work-filling.svg</normaloff>../icons/work-filling.svg</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="statButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Microsoft JhengHei UI</family>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#statButton {
+    border: 1px solid #008C8C; /* 设置边框样式 */
+    border-radius: 15px; /* 设置边框圆角大小 */
+}
+
+#statButton:hover {
+    background-color: #d3d3d3; /* 悬停状态 */
+}</string>
+            </property>
+            <property name="text">
+             <string>训练统计</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../icons/history-filling.svg</normaloff>../icons/history-filling.svg</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="settingButton">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Microsoft JhengHei UI</family>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#settingButton {
+    border: 1px solid #008C8C; /* 设置边框样式 */
+    border-radius: 15px; /* 设置边框圆角大小 */
+}
+
+#settingButton:hover {
+    background-color: #d3d3d3; /* 悬停状态 */
+}</string>
+            </property>
+            <property name="text">
+             <string>系统设置</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../icons/setting-filling.svg</normaloff>../icons/setting-filling.svg</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QStackedWidget" name="stackedWidget">
+         <property name="currentIndex">
+          <number>4</number>
+         </property>
+         <widget class="QWidget" name="Login">
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QWidget" name="login_background" native="true">
+             <property name="styleSheet">
+              <string notr="true">#login_background{
+		background: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgb(194, 231, 255), stop:1 rgb(175, 255, 182))
+}</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_4">
+              <property name="leftMargin">
+               <number>150</number>
+              </property>
+              <property name="topMargin">
+               <number>100</number>
+              </property>
+              <property name="rightMargin">
+               <number>150</number>
+              </property>
+              <property name="bottomMargin">
+               <number>100</number>
+              </property>
+              <item>
+               <widget class="QWidget" name="widget_login" native="true">
+                <property name="styleSheet">
+                 <string notr="true">#widget_login {
+	background-color: rgb(255, 255, 255);
+	border-radius: 20px; 
+}</string>
+                </property>
+                <widget class="QLabel" name="label_background">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>-10</y>
+                   <width>381</width>
+                   <height>371</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">#label_background {
+	border-radius:20px; 
+}</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>../login.png</pixmap>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label">
+                 <property name="geometry">
+                  <rect>
+                   <x>350</x>
+                   <y>40</y>
+                   <width>241</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>28</pointsize>
+                   <weight>50</weight>
+                   <italic>true</italic>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>UserLogin</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>350</x>
+                   <y>90</y>
+                   <width>161</width>
+                   <height>51</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>28</pointsize>
+                   <weight>75</weight>
+                   <italic>false</italic>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>欢迎登录</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_3">
+                 <property name="geometry">
+                  <rect>
+                   <x>510</x>
+                   <y>110</y>
+                   <width>151</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>11</pointsize>
+                   <weight>75</weight>
+                   <italic>false</italic>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>康复训练&amp;管理系统</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_4">
+                 <property name="geometry">
+                  <rect>
+                   <x>360</x>
+                   <y>180</y>
+                   <width>54</width>
+                   <height>12</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>用户名</string>
+                 </property>
+                </widget>
+                <widget class="QTextEdit" name="textEdit">
+                 <property name="geometry">
+                  <rect>
+                   <x>360</x>
+                   <y>200</y>
+                   <width>281</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_5">
+                 <property name="geometry">
+                  <rect>
+                   <x>360</x>
+                   <y>250</y>
+                   <width>54</width>
+                   <height>12</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>密码</string>
+                 </property>
+                </widget>
+                <widget class="QTextEdit" name="textEdit_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>360</x>
+                   <y>270</y>
+                   <width>281</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="pushButton_6">
+                 <property name="geometry">
+                  <rect>
+                   <x>440</x>
+                   <y>310</y>
+                   <width>141</width>
+                   <height>23</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>登录</string>
+                 </property>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="home">
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QWidget" name="widget_3" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>20</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QWidget{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,1,2">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QLineEdit" name="lineEdit">
+                <property name="font">
+                 <font>
+                  <family>Microsoft JhengHei UI</family>
+                  <pointsize>15</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>  主页</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="Line" name="line">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>2</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>2</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">Line{
+	background-color: #008C8C
+}</string>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_4" native="true">
+                <property name="styleSheet">
+                 <string notr="true">QWidget{
+	background-color: #d3d3d3;
+	border-radius: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}</string>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_2" columnstretch="1,3">
+                 <item row="1" column="1">
+                  <spacer name="horizontalSpacer">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>462</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item row="0" column="0">
+                  <widget class="QLineEdit" name="lineEdit_2">
+                   <property name="font">
+                    <font>
+                     <family>Microsoft JhengHei UI</family>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>用户名：XXXXX</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="0">
+                  <widget class="QLineEdit" name="lineEdit_3">
+                   <property name="font">
+                    <font>
+                     <family>Microsoft JhengHei UI</family>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>ID: XXXXX</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="1">
+                  <spacer name="horizontalSpacer_2">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_5" native="true">
+                <property name="styleSheet">
+                 <string notr="true">QWidget{
+	background-color: #d3d3d3;
+	border-radius: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}</string>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_3">
+                 <property name="horizontalSpacing">
+                  <number>2</number>
+                 </property>
+                 <item row="1" column="1">
+                  <widget class="QWidget" name="widget_8" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="2">
+                  <widget class="QWidget" name="widget_6" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="3">
+                  <widget class="QWidget" name="widget_7" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="0">
+                  <widget class="QWidget" name="widget" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="0">
+                  <widget class="QWidget" name="widget_9" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QWidget" name="widget_10" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="2">
+                  <widget class="QWidget" name="widget_11" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="3">
+                  <widget class="QWidget" name="widget_12" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="gaming">
+          <layout class="QHBoxLayout" name="horizontalLayout_6">
+           <item>
+            <widget class="QWidget" name="widget_14" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>20</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QWidget{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_4">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_4">
+                <property name="font">
+                 <font>
+                  <family>Microsoft JhengHei UI</family>
+                  <pointsize>15</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>康复训练</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="Line" name="line_2">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>2</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>2</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">Line{
+	background-color: #008C8C
+}</string>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_15" native="true">
+                <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="1,2">
+                 <item>
+                  <widget class="QWidget" name="widget_26" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget{
+	background-color: #d3d3d3;
+	border-radius: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}</string>
+                   </property>
+                   <widget class="QLineEdit" name="lineEdit_5">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>10</y>
+                      <width>111</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Microsoft JhengHei UI</family>
+                      <pointsize>10</pointsize>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>训练目标</string>
+                    </property>
+                   </widget>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QWidget" name="widget_25" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget{
+	background-color: #d3d3d3;
+	border-radius: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}</string>
+                   </property>
+                   <widget class="QLineEdit" name="lineEdit_6">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>10</y>
+                      <width>111</width>
+                      <height>21</height>
+                     </rect>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Microsoft JhengHei UI</family>
+                      <pointsize>10</pointsize>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string>难度梯度</string>
+                    </property>
+                   </widget>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_16" native="true">
+                <property name="styleSheet">
+                 <string notr="true">QWidget{
+	background-color: #d3d3d3;
+	border-radius: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}</string>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_5" columnstretch="1,1,1,1">
+                 <item row="1" column="0">
+                  <widget class="QWidget" name="widget_21" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="2">
+                  <widget class="QWidget" name="widget_23" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="3">
+                  <widget class="QWidget" name="widget_24" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="1">
+                  <widget class="QWidget" name="widget_22" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="0">
+                  <widget class="QLineEdit" name="lineEdit_7">
+                   <property name="font">
+                    <font>
+                     <family>Microsoft JhengHei UI</family>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>游戏</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="settings">
+          <layout class="QHBoxLayout" name="horizontalLayout_10">
+           <item>
+            <widget class="QWidget" name="widget_18" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>20</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QWidget{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_6">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_8">
+                <property name="font">
+                 <font>
+                  <family>Microsoft JhengHei UI</family>
+                  <pointsize>15</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>患者详情</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="Line" name="line_3">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>2</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>2</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">Line{
+	background-color: #008C8C
+}</string>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_19" native="true">
+                <layout class="QHBoxLayout" name="horizontalLayout_9" stretch="1">
+                 <item>
+                  <widget class="QWidget" name="widget_27" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget{
+	background-color: #d3d3d3;
+	border-radius: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}</string>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_7" columnstretch="1,3">
+                    <item row="0" column="0">
+                     <widget class="QLineEdit" name="lineEdit_9">
+                      <property name="font">
+                       <font>
+                        <family>Microsoft JhengHei UI</family>
+                        <pointsize>10</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>患者信息</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QWidget" name="patient_img" native="true">
+                      <property name="styleSheet">
+                       <string notr="true">#patient_img{
+	background-color: white
+}</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="1">
+                     <widget class="QWidget" name="patient_info" native="true">
+                      <property name="styleSheet">
+                       <string notr="true">#patient_info{
+	background-color: white
+}</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_20" native="true">
+                <property name="styleSheet">
+                 <string notr="true">QWidget{
+	background-color: #d3d3d3;
+	border-radius: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}</string>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_8" columnstretch="1,3">
+                 <item row="0" column="0" colspan="2">
+                  <widget class="QLineEdit" name="lineEdit_11">
+                   <property name="font">
+                    <font>
+                     <family>Microsoft JhengHei UI</family>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>训练汇总</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="0">
+                  <widget class="QPushButton" name="overviewButton">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">#overviewButton{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>总览</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="1" rowspan="3">
+                  <widget class="QWidget" name="chart" native="true">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">#chart{
+	background-color:white;
+	border-radius: 15px;
+	
+}</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="0">
+                  <widget class="QPushButton" name="gameOptionButton">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">#gameOptionButton{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>项目一</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="3" column="0">
+                  <widget class="QPushButton" name="gameOptionButton_2">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">#gameOptionButton_2{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>项目二</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page">
+          <layout class="QHBoxLayout" name="horizontalLayout_13">
+           <item>
+            <widget class="QWidget" name="widget_34" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>20</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QWidget{
+	background-color: white;
+	border-radius: 15px;
+}</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_8">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QLineEdit" name="lineEdit_12">
+                <property name="font">
+                 <font>
+                  <family>Microsoft JhengHei UI</family>
+                  <pointsize>15</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>系统设置</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="Line" name="line_4">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>2</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>2</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">Line{
+	background-color: #008C8C
+}</string>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_35" native="true">
+                <layout class="QGridLayout" name="gridLayout_4">
+                 <property name="leftMargin">
+                  <number>50</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>50</number>
+                 </property>
+                 <property name="verticalSpacing">
+                  <number>15</number>
+                 </property>
+                 <item row="5" column="1">
+                  <spacer name="verticalSpacer_5">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeType">
+                    <enum>QSizePolicy::Maximum</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>20</width>
+                     <height>103</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item row="4" column="2">
+                  <spacer name="horizontalSpacer_4">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeType">
+                    <enum>QSizePolicy::Preferred</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>235</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item row="2" column="0" colspan="3">
+                  <widget class="QWidget" name="setting_option_3" native="true">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>50</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">#setting_option_3{
+	background-color: #DDDDDD
+}</string>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_15">
+                    <item>
+                     <widget class="QLabel" name="brightness">
+                      <property name="font">
+                       <font>
+                        <family>Microsoft JhengHei UI</family>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">#brightness{
+	background-color: #DDDDDD
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>亮度</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_6">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeType">
+                       <enum>QSizePolicy::Maximum</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>350</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QSlider" name="brightnessSlider">
+                      <property name="styleSheet">
+                       <string notr="true">#brightnessSlider{
+	background-color: #DDDDDD
+}</string>
+                      </property>
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item row="4" column="0">
+                  <spacer name="horizontalSpacer_3">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeType">
+                    <enum>QSizePolicy::Preferred</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>235</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item row="1" column="0" colspan="3">
+                  <widget class="QWidget" name="setting_option_2" native="true">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>50</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">#setting_option_2{
+	background-color: #DDDDDD
+}</string>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_14">
+                    <property name="leftMargin">
+                     <number>20</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>20</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="language">
+                      <property name="font">
+                       <font>
+                        <family>Microsoft JhengHei UI</family>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">#language{
+	background-color: #DDDDDD
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>语言</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_5">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeType">
+                       <enum>QSizePolicy::Maximum</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>350</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QComboBox" name="langOption">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>23</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>23</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Microsoft JhengHei UI</family>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <item>
+                       <property name="text">
+                        <string>简体中文</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>English</string>
+                       </property>
+                      </item>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item row="0" column="0" colspan="3">
+                  <widget class="QWidget" name="setting_option_1" native="true">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>50</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">#setting_option_1{
+	background-color: #DDDDDD
+}</string>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_12">
+                    <property name="leftMargin">
+                     <number>20</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>20</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="edtion">
+                      <property name="font">
+                       <font>
+                        <family>Microsoft JhengHei UI</family>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">#edtion{
+	background-color: #DDDDDD	
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>系统版本                                                                    </string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="edtionValue">
+                      <property name="font">
+                       <font>
+                        <family>Microsoft JhengHei UI</family>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">#edtionValue{
+	background-color: #DDDDDD
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>V1.0.1</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item row="4" column="1">
+                  <widget class="QWidget" name="setting_option_5" native="true">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>50</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">#setting_option_5{
+	background-color: #E73131
+}</string>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_16">
+                    <item>
+                     <widget class="QLabel" name="signOut">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Microsoft JhengHei UI</family>
+                        <pointsize>12</pointsize>
+                        <weight>50</weight>
+                        <bold>false</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">#signOut{
+	background-color: #E73131
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>退出登录</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_2"/>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
